@@ -19,6 +19,7 @@
             --dusty-blue: #8b9db5;
             --slate: #6b7280;
             --charcoal: #2d3436;
+            --dusty-blue-dark: #6a7fa0;
         }
 
         body {
@@ -365,6 +366,31 @@
                 transform: translate(50px, 50px);
             }
         }
+
+        .badge-new {
+            display: inline-block;
+            font-size: 0.65rem;
+            font-weight: 900;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            color: var(--mauve);
+            border: 1px solid var(--mauve);
+            border-radius: 2px;
+            padding: 1px 5px;
+            vertical-align: middle;
+            position: relative;
+            top: -1px;
+        }
+
+        .pub-title {
+            color: var(--dusty-blue-dark);
+            font-weight: 700;
+        }
+
+        a.pub-title:hover {
+            color: var(--dusty-blue);
+        }
+
     </style>
 </head>
 <body>
@@ -389,11 +415,12 @@
             <p class="subtitle2">max.elling@colorado.edu</p>
         </div>
         
-        <p><b>I'm a researcher studying climate variability and change</b>, particularly in relation to societal impacts.</p>
+        <p><b>I'm a researcher studying climate variability and change, particularly in relation to societal impacts.</b></p>
         
-        <p>Currently, <b>I'm an Atmospheric and Oceanic Sciences PhD candidate at the University of Colorado Boulder</b>, where I'm researching the impacts of climate variability on malaria in Malawi and building a global climate-health risk index. <b>Previously, I was at NASA Goddard Institute for Space Studies</b>, where I evaluated climate models with a focus on climate extremes and other impact-relevant metrics, and developed software.</p>
+        <p>Currently, <b>I'm an Atmospheric and Oceanic Sciences PhD candidate at the University of Colorado Boulder</b>, where I'm researching the impacts of climate on malaria in southeastern Africa and building a global climate-health risk index. <b>Previously, I was at NASA Goddard Institute for Space Studies</b>, where I primarily researched how well climate models simulate extreme weather and other impact-relevant events, worked on the GISTEMP surface temperature analysis, and developed software.</p>
         
-        <p>My approach combines climate observational records and model output with health and socioeconomic data to <b>address fundamental questions about how climate variability and change impact people</b>, exploring both past impacts and future risks. I believe in scientific research with a focus on implications for society and I am a strong advocate for interdisciplinary research.</p>
+        <p>My approach combines climate observational records and model output with health and socioeconomic data to <b>address fundamental questions about how climate variability and change impact people</b>, exploring both past impacts and future risks. I have recently been focusing on impacts on human health, but my interests span various domains. I am a strong advocate for interdisciplinary research, and have enjoyed co-managing an interdisciplinary climate group called <a class="pub-title" href="https://cakeclimate.org" target="_blank" rel="noopener noreferrer">CAKE</a>
+.</p>
 
         <a href="#papers" onclick="showPage('papers')" class="cta-button">view my work</a>
     </div>
@@ -405,7 +432,8 @@
         <p class="subtitle">Journal articles (published)</p>
         <div class="card">
             <div class="pub-entry">
-                <a class="pub-title" href="https://doi.org/10.1007/s10584-026-04157-w" target="_blank" rel="noopener noreferrer">An Impact-Driven Framework for Climate Model Evaluation</a>
+                <a class="pub-title" href="https://doi.org/10.1007/s10584-026-04157-w" target="_blank" rel="noopener noreferrer">An Impact-Driven Framework for Climate Model Evaluation</a> <span class="badge-new">new!</span>
+                <!--<a class="pub-title" href="https://doi.org/10.1007/s10584-026-04157-w" target="_blank" rel="noopener noreferrer">An Impact-Driven Framework for Climate Model Evaluation</a>-->
                 <div class="pub-meta"><em>Climatic Change</em>, 2026 &middot; <b>Maxwell T. Elling</b>, Alex C. Ruane, Manishka de Mel, Jeffrey Jonas, Sanketa Kadam, Nancy Y. Kiang, Keren Mezuman, Larissa Nazarenko, Nick Pelaccio, Meridel Phillips, Anastasia Romanou, and David Rind</div>
             </div>
             <div class="pub-entry">
